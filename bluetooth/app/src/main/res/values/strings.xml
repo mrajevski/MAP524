@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">bluetooth</string>
+    <string name="scan">SCAN</string>
+    <string name="discover">DISCOVER</string>
+    <string name="devList">Devices:</string>
+</resources>
