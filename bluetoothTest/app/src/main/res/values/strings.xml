@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">bluetoothTest</string>
-    <string name="scan">SCAN</string>
-    <string name="disc">DISCOVER ME</string>
-    <string name="btList">Devices:</string>
-</resources>
