@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         final Button scButton = (Button)findViewById(R.id.scan);
         scButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                l.setText("help me pls");
+                l.setText(l.getText() + "help me pls");
                 registerReceiver(btReceiver, filter);
             }
         });
