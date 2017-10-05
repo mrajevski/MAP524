@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Mystery Button</string>
+    <string name="button">Push Me!</string>
 </resources>
