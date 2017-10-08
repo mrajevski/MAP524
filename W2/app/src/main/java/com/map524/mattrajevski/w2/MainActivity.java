@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
         // NOTE: this style is called an "Anonymous Temporary Class" //
         Button a2 = (Button)findViewById(R.id.A2_button);
         a2.setOnClickListener(
-            new View.OnClickListener() { // Override the onClick method so that it is no longer abstract //
-                public void onClick(View v) { // Always add behaviour to a method defined in MainActivity to do the work //
-                    handleA2click();
+                new View.OnClickListener() { // Override the onClick method so that it is no longer abstract //
+                    public void onClick(View v) { // Always add behaviour to a method defined in MainActivity to do the work //
+                        handleA2click();
+                    }
                 }
-            }
         );
     }
 
@@ -50,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         // Handler //
-       if (requestCode == 1) {
+        if (requestCode == 1) {
             // Check if user pressed OK or hit back button //
             if (resultCode == Activity.RESULT_OK) {
                 String result = data.getStringExtra("message");

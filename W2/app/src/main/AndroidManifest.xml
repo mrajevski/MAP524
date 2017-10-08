@@ -25,7 +25,6 @@
             </intent-filter>
 
         </activity>
-
         <activity android:name=".Activity_3"></activity>
     </application>
 
