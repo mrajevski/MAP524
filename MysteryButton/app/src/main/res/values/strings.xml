@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Mystery Button</string>
-    <string name="button">Push Me!</string>
+    <string name="mystery">Push Me!</string>
+    <string-array name="definitions">
+        <item>Activity</item>
+        <item>AVD</item>
+        <item>ART</item>
+        <item>Dalvik</item>
+        <item>Intent</item>
+        <item>Intent Filter</item>
+        <item>Explicit Intent</item>
+        <item>Implicit Intent</item>
+        <item>LogCat</item>
+        <item>Bundle</item>
+        <item>Gradle</item>
+        <item>Android Device Monitor</item>
+        <item>SDK Manager</item>
+        <item>minSdkVersion</item>
+    </string-array>
 </resources>
