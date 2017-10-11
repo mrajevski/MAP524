@@ -23,37 +23,37 @@ public class MainActivity extends AppCompatActivity {
                     definition += " - Is what is displayed to the user for interaction.";
                     break;
                 case "avd":
-                    definition += " - It manages all the virtual devices on the local machine.";
+                    definition += " - Android Virtual Device, is an emulated Android device that can run with different API levels and hardware profiles.";
                     break;
                 case "art":
-                    definition += "";
+                    definition += " - Android Runtime, is the managed runtime environment used by applications and some system services.";
                     break;
                 case "dalvik":
-                    definition += "";
+                    definition += " - Is the predecessor to ART and most apps developed for Dalvik should be compatible when running with ART.";
                     break;
                 case "intent":
                     definition += " - They're used to pass messages to other activities to preform a certain action.";
                     break;
                 case "intent filter":
-                    definition += "";
+                    definition += " - They are declared in the AndroidManifest.xml, and are checked against when an Intent is received.";
                     break;
                 case "explicit intent":
-                    definition += "";
+                    definition += " - Is used to call on a specific activity or service in a known application.";
                     break;
                 case "implicit intent":
-                    definition += " - ";
+                    definition += " - Is used to request an action in an unknown application.";
                     break;
                 case "logcat":
-                    definition += "";
+                    definition += " - Is the debug message monitor built into Android Studio.";
                     break;
                 case "bundle":
-                    definition += "";
+                    definition += " - Is a class that maps String keys to Parcelable values.";
                     break;
                 case "gradle":
-                    definition += "";
+                    definition += " - Is an open source, build automation software that combines the features of the Ant, Groovy, Ivy, and Maven build tools";
                     break;
                 case "android device monitor":
-                    definition += "";
+                    definition += " - Is a tool that provides UI for application debugging and analysis.";
                     break;
                 case "sdk manager":
                     definition += " - It displays a list of all sdk versions, and allows the developer to install/update/configure each one.";
@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
             t.setText(definition);
             linearLayout.addView(t, layoutParams);
             t = new TextView(this);
+            a.setText("");
         }
         else {
             Toast.makeText(this, "Text box is empty.", Toast.LENGTH_LONG).show();
