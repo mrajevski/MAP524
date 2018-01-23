@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Workshop 5</string>
+    <string-array name="description_array">
+        <item>The most used search engine in the world</item>
+        <item>A website that contains many different subsites on different topics</item>
+        <item>Developer documents for programming on android devices</item>
+    </string-array>
+    <string-array name="uri_array">
+        <item>https://www.google.ca/</item>
+        <item>https://www.reddit.com/</item>
+        <item>https://developer.android.com/index.html</item>
+    </string-array>
+</resources>
