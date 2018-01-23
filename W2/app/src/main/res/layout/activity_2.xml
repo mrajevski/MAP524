@@ -10,22 +10,22 @@
         android:id="@+id/ok_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="OK"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="140dp"
-        android:layout_marginStart="134dp"
-        android:layout_marginTop="129dp"
-        android:layout_below="@+id/editText"
-        android:layout_alignParentStart="true" />
+        android:layout_alignTop="@+id/A2Text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp" />
 
-    <TextView
-        android:id="@+id/editText"
+    <EditText
+        android:id="@+id/A2Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="56dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginStart="21dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

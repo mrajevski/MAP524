@@ -20,7 +20,7 @@
             <!-- All xml tags here describe A2.
              An intent filter is needed in order for Activity_2 to receive or handle an implicit intent -->
             <intent-filter> <!-- Every intent requires an action and a category -->
-                <action android:name="com.map524.lab2.mrrajevski"/>
+                <action android:name="com.map524.w2.mrrajevski"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
 
