@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">bluetooth</string>
-    <string name="scan">SCAN</string>
-    <string name="discover">DISCOVER</string>
-    <string name="devList">Devices:</string>
+    <string name="connect">Connect</string>
+    <string name="discover">Discovered Devices:</string>
+    <string name="paired">Paired Devices:</string>
+
 </resources>
